@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorLightBlue"
+    tools:context=".VerifyActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="20dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Verify Your Account"
+            android:textAlignment="center"
+            android:textSize="40dp"
+            android:textColor="@color/colorBackground"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/verify_desc"
+            android:textColor="@color/colorBackground"
+            android:textSize="15dp"
+            android:textAlignment="center"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="enter verification code here..."
+            android:textAlignment="center"
+            android:textColor="@color/colorBackground"
+            android:backgroundTint="@color/colorBackground"
+            android:textSize="16dp"
+            android:paddingBottom="20dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="SEND"
+            android:textColor="@color/colorBackground"
+            android:background="@drawable/style_btn_1"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/verify_resend"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:textColor="@color/colorBackground"
+            android:textAlignment="center"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
