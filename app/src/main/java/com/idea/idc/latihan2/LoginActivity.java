@@ -1,5 +1,10 @@
 package com.idea.idc.latihan2;
 
+//Tangaal : 18-04-2019
+//NIM     : 10116494
+//Nama    : Imam Dwi Cahyo
+//Kelas   : IF-11 / AKB-11
+
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
