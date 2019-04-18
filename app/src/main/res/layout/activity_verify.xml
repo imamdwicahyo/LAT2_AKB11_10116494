@@ -19,7 +19,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Verify Your Account"
+            android:text="Verify your Account"
             android:textAlignment="center"
             android:textSize="40dp"
             android:textColor="@color/colorBackground"/>
@@ -37,9 +37,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
-            android:text="enter verification code here..."
+            android:hint="enter verification code here..."
             android:textAlignment="center"
             android:textColor="@color/colorBackground"
+            android:textColorHint="@color/colorBackground"
             android:backgroundTint="@color/colorBackground"
             android:textSize="16dp"
             android:paddingBottom="20dp"/>

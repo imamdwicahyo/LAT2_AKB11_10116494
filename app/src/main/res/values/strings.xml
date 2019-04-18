@@ -2,5 +2,15 @@
     <string name="app_name">Latihan 2</string>
     <string name="Althere_desc">Thank you for registering with us. One More\n step, you need to check your email\n to active your account</string>
     <string name="verify_desc">We have send verification code to your email</string>
-    <string name="verify_resend">doesn\'t get the code? <b> Resend </b></string>
+    <string name="verify_resend">doesn\'t get the code? <b>Resend</b></string>
+    <string name="login_register">doesn\'t have account? <b>Register</b></string>
+    <string-array name="blood_type">
+        <item>Blood type</item>
+    </string-array>
+    <string-array name="reshus">
+        <item>Reshus</item>
+    </string-array>
+    <string-array name="job">
+        <item>job</item>
+    </string-array>
 </resources>
