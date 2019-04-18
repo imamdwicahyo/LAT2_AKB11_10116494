@@ -58,7 +58,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="2dp"
+        android:layout_marginVertical="10dp"
         android:orientation="vertical"
         app:layout_constraintTop_toBottomOf="@+id/userImage"
         tools:ignore="MissingConstraints">
@@ -66,14 +66,13 @@
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="0.3">
+            >
 
             <!--isi-->
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:layout_weight="0.3">
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
 
                 <TextView
                     android:layout_width="match_parent"
@@ -97,7 +96,7 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="20dp"
+                    android:layout_marginTop="10dp"
                     android:background="@drawable/style_border"
                     android:orientation="horizontal">
 
@@ -110,7 +109,7 @@
 
                         <TextView
                             android:layout_width="match_parent"
-                            android:layout_height="60dp"
+                            android:layout_height="50dp"
                             android:layout_gravity="center"
                             android:gravity="center"
                             android:text="75"
@@ -124,7 +123,7 @@
                             android:layout_gravity="center"
                             android:gravity="center"
                             android:paddingTop="2dp"
-                            android:paddingBottom="10dp"
+                            android:paddingBottom="5dp"
                             android:text="BLOOD OVE"
                             android:textSize="10dp" />
 
@@ -139,7 +138,7 @@
 
                         <TextView
                             android:layout_width="match_parent"
-                            android:layout_height="60dp"
+                            android:layout_height="50dp"
                             android:layout_gravity="center"
                             android:gravity="center"
                             android:text="100"
@@ -155,7 +154,7 @@
                             android:paddingTop="2dp"
                             android:text="BLOOD RECEIVED"
                             android:textSize="10dp"
-                            android:paddingBottom="10dp"/>
+                            android:paddingBottom="5dp"/>
 
                     </LinearLayout>
 
@@ -168,7 +167,7 @@
 
                         <TextView
                             android:layout_width="match_parent"
-                            android:layout_height="60dp"
+                            android:layout_height="50dp"
                             android:layout_gravity="center"
                             android:gravity="center"
                             android:text="330"
@@ -184,7 +183,7 @@
                             android:paddingTop="2dp"
                             android:text="THANKS"
                             android:textSize="10dp"
-                            android:paddingBottom="10dp"/>
+                            android:paddingBottom="5dp"/>
 
                     </LinearLayout>
 
@@ -339,6 +338,7 @@
             <!--end isi-->
 
         </ScrollView>
+
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>

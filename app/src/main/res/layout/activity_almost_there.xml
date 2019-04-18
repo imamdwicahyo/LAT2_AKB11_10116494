@@ -33,9 +33,11 @@
             android:textAlignment="center"/>
 
         <Button
+            android:id="@+id/btn_verify"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="40dp"
+            android:onClick="onClick"
             android:text="Verify"
             android:textColor="@color/colorBackground"
             android:background="@drawable/style_btn_1"/>
