@@ -10,4 +10,5 @@
     <color name="colorFontDesc">#808284</color>
     <color name="colorBackground">#ffffff</color>
     <color name="colorBackgrountInviteFriend">#f1f1f2</color>
+    <color name="colorBlack">#000000</color>
 </resources>
