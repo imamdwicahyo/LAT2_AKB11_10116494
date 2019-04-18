@@ -27,7 +27,7 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="15dp"
+                android:layout_marginTop="20dp"
                 android:hint="Username"
                 android:textColor="@color/colorBackground"
                 android:textColorHint="@color/colorBackground"
@@ -38,7 +38,7 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="20dp"
                 android:hint="Password"
                 android:textColor="@color/colorBackground"
                 android:textColorHint="@color/colorBackground"
@@ -49,7 +49,7 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="20dp"
                 android:textColor="@color/colorBackground"
                 android:background="@drawable/style_btn_1"
                 android:text="Login"/>
@@ -57,7 +57,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="15dp"
                 android:text="OR"
                 android:textColor="@color/colorBackground"
                 android:textAlignment="center"/>
@@ -65,7 +65,7 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="15dp"
                 android:textColor="@color/colorBackground"
                 android:background="@drawable/style_btn_1"
                 android:text="Connect With Facebook"
@@ -75,7 +75,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="15dp"
                 android:text="@string/login_register"
                 android:onClick="onClick"
                 android:clickable="true"
